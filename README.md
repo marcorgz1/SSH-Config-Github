@@ -6,15 +6,15 @@ git --version
 ```
 2. Configurar nombre de usuario e email globales:
 ```sh
-git --global user.name "Markix1"
-git --global user.email marco.valdmeoro@gmail.com
+git config --global user.name "Markix1"
+git config --global user.email marco.valdmeoro@gmail.com
 ```
 
 3. Comprobar nombre de usuario e email globales:
 ```sh
-git --list
+git config --list
 ```
-4. Crear clvae SSH:
+4. Crear clave SSH:
 ```sh
 ssh-keygen -t ed25519 -C "marco.valdemoro@gmail.com"
 ```
