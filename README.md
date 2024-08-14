@@ -7,7 +7,7 @@ git --version
 2. Configurar nombre de usuario e email globales:
 ```sh
 git config --global user.name "Markix1"
-git config --global user.email marco.valdmeoro@gmail.com
+git config --global user.email marco.valdemoro@gmail.com
 ```
 
 3. Comprobar nombre de usuario e email globales:
